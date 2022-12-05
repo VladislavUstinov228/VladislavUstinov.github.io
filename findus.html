@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-
+    <script src="https://use.fontawesome.com/80d00e388c.js"></script>
     <link href="./css/reset.css" rel="stylesheet" />
     <link href="./css/normalize.css" rel="stylesheet" />
     <link
@@ -25,7 +25,21 @@
       href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
-
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="./css/main.css" />
     <title>Газпром Газораспределение Ленинградская область в г. Выборге</title>
   </head>
@@ -60,13 +74,29 @@
               <a class="nav-link" href="./contacts.html">Связь с нами</a>
             </li>
             <li class="nav-item">
-              <a href="./authorization.html" class="nav-link">Авторизация</a>
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a
+                    href="#"
+                    class="nav-link dropdown-toggle"
+                    data-bs-toggle="dropdown"
+                    ><i class="fa fa-user-o" aria-hidden="true"></i>
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledy="navbarDropdown">
+                    <li>
+                      <a href="./registration.html" class="dropdown-item"
+                        >Регистрация</a
+                      >
+                    </li>
+                    <li>
+                      <a href="./authorization.html" class="dropdown-item"
+                        >Авторизация</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+              </ul>
             </li>
-            <form action="./registration.html" method="GET">
-              <button class="btn btn-outline-dark" type="submit">
-                Регистрация
-              </button>
-            </form>
           </ul>
         </div>
       </div>
@@ -97,32 +127,38 @@
         </ul>
       </div>
     </div>
-    <section class="footer">
-      <div
-        class="container-fluid d-flex align-items-center justify-content-center my-footer"
-        style="height: 204px"
-      >
-        <div
-          class="d-flex flex-column justify-content-start mb-3"
-          style="width: 634px; height: 104px"
-        >
-          <!--left-content -->
-          <ul class="list-unstyled">
-            <li><img class="mb-4" src="./images/logo.svg" alt="" /></li>
-            <li>Права защищены.</li>
-            <li>© В. Д. Устинов, 2022</li>
-          </ul>
-        </div>
-        <div
-          class="d-flex flex-column align-items-end justify-content-end mt-5"
-          style="width: 634px; height: 104px"
-        >
-          <!--right-content -->
-          <h4>Мы в сети:</h4>
-          <a href="#">Госуслуги</a>
-          <a href="#">Почта</a>
-          <a href="#">ВК</a>
-          <a href="#">Главная</a>
+    <section class="footer my-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 mt-5">
+            <ul class="list-unstyled">
+              <li>
+                <a href="./index.html"
+                  ><img src="./images/logo.svg" alt=""
+                /></a>
+              </li>
+              <li>Права защищены.</li>
+              <li>Устинов Владислав, 2022.</li>
+            </ul>
+          </div>
+          <div class="col-6 mt-5 d-flex flex-column align-items-end">
+            <h4 style="margin-bottom: 35px">Мы в сети:</h4>
+            <div class="footer-icons">
+              <a href="./index.html"
+                ><i class="fa fa-2x fa-home" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.gosuslugi.ru/"
+                ><img
+                  src="./images/gosuslugi.png"
+                  alt=""
+                  style="padding-bottom: 10px"
+              /></a>
+              <a href="#"><i class="fa fa-2x fa-vk" aria-hidden="true"></i></a>
+              <a href="mailto:lvpd.help3@gmail.com"
+                ><i class="fa fa-2x fa-envelope" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>

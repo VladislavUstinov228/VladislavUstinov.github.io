@@ -18,3 +18,11 @@
     );
   });
 })();
+// показ пароля
+$("body").on("click", ".password-checkbox", function () {
+  if ($(this).is(":checked")) {
+    $("#validationCustom07").attr("type", "text");
+  } else {
+    $("#validationCustom07").attr("type", "password");
+  }
+});

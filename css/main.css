@@ -1,6 +1,7 @@
 /* footer */
 .my-footer {
   background-color: #f7f7f7;
+  height: 204px;
 }
 .footer a {
   transition: all 0.3s;
@@ -9,6 +10,9 @@
 }
 .footer a:hover {
   color: #1b1a1a5e;
+}
+.footer-icons a {
+  margin-left: 5px;
 }
 /* carousel */
 .my-carousel {
@@ -52,16 +56,25 @@
   box-shadow: 11px 11px 25px rgba(9, 7, 37, 0.06);
 }
 .btn-outline-dark {
-  transition: 0.5s;
+  line-height: 30px;
+  background-color: #ffffff;
+  transition: background-color 1s cubic-bezier(0.37, 0, 0.63, 1) 0s;
+}
+.btn-outline-dark:hover {
+  background-color: #000000;
+}
+.navbar-nav .dropdown-menu {
+  right: 0;
+  left: auto;
 }
 .show .navbar-nav {
   gap: 0;
 }
+.dropdown-menu .show {
+  border-radius: 14px;
+}
 .show .navbar-nav a {
   max-width: 105px;
-}
-.show .navbar-nav a:hover {
-  background-color: #1b1a1a0a;
 }
 .navbar-nav {
   gap: 23px;
