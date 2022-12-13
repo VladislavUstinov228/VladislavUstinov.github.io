@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="220"
+   height="60"
+   viewBox="0 0 58.208332 15.875"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   sodipodi:docname="logo.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="2.096401"
+     inkscape:cx="209.44679"
+     inkscape:cy="27.021955"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g43511"
+     inkscape:rotation="1"
+     units="px"
+     width="220px" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g43511"
+       transform="matrix(0.57578715,0,0,0.57578715,-23.13142,-26.501778)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:9.85299px;line-height:1.25;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';stroke-width:0.246326"
+         x="40.970188"
+         y="54.9189"
+         id="text2487"
+         transform="scale(0.98180028,1.0185371)"><tspan
+           sodipodi:role="line"
+           id="tspan2485"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';fill:#006fff;fill-opacity:1;stroke-width:0.246326"
+           x="40.970188"
+           y="54.9189">Газпром</tspan><tspan
+           sodipodi:role="line"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic Bold';stroke-width:0.246326"
+           x="40.970188"
+           y="67.23513"
+           id="tspan5469">Газораспределение</tspan></text>
+      <path
+         style="fill:none;stroke:#000000;stroke-width:0.247692px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.413732"
+         d="m 40.907841,58.821577 c 99.296789,0 99.296789,0 99.296789,0"
+         id="path36279" />
+    </g>
+  </g>
+</svg>

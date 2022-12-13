@@ -1,0 +1,26 @@
+@media (max-width: 1221px) {
+  p {
+    font-size: 14px;
+  }
+  h4 {
+    font-size: 22px;
+  }
+  li {
+    font-size: 14px;
+  }
+  .show .navbar-nav {
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .w-25 {
+    width: 50% !important;
+  }
+}
+@media (max-width: 978px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 575px) {
+}
