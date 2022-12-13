@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <script src="https://use.fontawesome.com/80d00e388c.js"></script>
-    <link href="./css/reset.css" rel="stylesheet" />
-    <link href="./css/normalize.css" rel="stylesheet" />
     <script
       src="https://kit.fontawesome.com/dfc834d040.js"
       crossorigin="anonymous"
@@ -26,7 +24,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
       rel="stylesheet"
     />
     <script
@@ -45,14 +43,22 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/adaptation.css" />
     <title>Газпром Газораспределение Ленинградская область в г. Выборге</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html"
-          ><img src="./images/logo.svg" alt=""
-        /></a>
+        <a href="./index.html" class="navbar-brand">
+          <img src="./images/logo.svg" alt="" class="logotype" /><audio
+            id="au"
+            src="sound.mp3.mp3"
+          ></audio
+          ><strong
+            class="txt w-25"
+            style="left: 20px; position: relative"
+          ></strong>
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -212,13 +218,83 @@
               </div>
               <div class="product-bottom-details">
                 <div class="product-links">
-                  <button href="#" class="btn btn-outline-dark" type="button">
+                  <button
+                    type="button"
+                    class="btn btn-outline-dark"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal1"
+                  >
                     Посмотреть
                   </button>
+                </div>
+                <!-- Модальное окно топлива -->
+                <div
+                  class="modal fade"
+                  id="exampleModal1"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                          Топливо G-Drive
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Закрыть"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>
+                          Бензин G-Drive создан на основе марок бензина АИ-95,
+                          АИ-98 и АИ-100. Подбор оптимального набора присадок
+                          для жидкостей производился в лабораторных условиях,
+                          каждый образец неоднократно испытывался. В итоге
+                          получилось добиться повышенного качестве бензина,
+                          обогатив смесь присадками, которые продемонстрировали
+                          наилучшие защитные свойства. Продукт выпускается под
+                          наименованием G-Drive и не имеет аналогов у других
+                          поставщиков продуктов обработки нефти.
+                        </p>
+                        <hr />
+                        <p>
+                          Результаты проводимых тестирований показали высокую
+                          эффективность использования бензина G-Drive в
+                          двигателях инжекторного и карбюраторного типа. Топливо
+                          характеризуется следующими общими для каждой
+                          маркировки показателями:
+                        </p>
+                        <ul class="list-unstyled">
+                          <li>
+                            1. Увеличение общей мощности двигателя минимум на 10
+                            процентов в зависимости от марки горючего;
+                          </li>
+                          <li>
+                            2. Увеличивается сила, транслируемая поршневым
+                            элементом на коленчатый вал;
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Закрыть
+                        </button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+          <!-- вторая карточка -->
           <div class="col-lg-4 col-sm-6 mb-3">
             <div class="product-card">
               <div class="product-thumb">
@@ -233,13 +309,75 @@
               </div>
               <div class="product-bottom-details">
                 <div class="product-links">
-                  <button href="#" class="btn btn-outline-dark" type="button">
+                  <button
+                    type="button"
+                    class="btn btn-outline-dark"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal2"
+                  >
                     Посмотреть
                   </button>
+                </div>
+                <!-- Модальное окно догазификаций -->
+                <div
+                  class="modal fade"
+                  id="exampleModal2"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                          Догазификация домовладений
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Закрыть"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>
+                          Догазификация — подведение газа до границ земельного
+                          участка в газифицированных населенных пунктах без
+                          привлечения средств граждан в соответствии
+                          с Поручением Президента РФ Владимира Путина, а также
+                          подключение объекта капитального строительства.
+                        </p>
+                        <hr />
+                        <p>
+                          Единый оператор газификации, или ЕОГ, — единый центр
+                          ответственности по вопросам газификации
+                          и по обеспечению бесплатного подключения домовладений
+                          к сетям газораспределения.
+                        </p>
+                        <hr />
+                        <p>
+                          Региональный оператор газификации (РОГ) — это
+                          компания, являющаяся таким же центром ответственности,
+                          как и ЕОГ, на той территории субъекта, где ее сетей
+                          больше, чем у ЕОГа.
+                        </p>
+                      </div>
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Закрыть
+                        </button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+          <!-- третья карточка -->
           <div class="col-lg-4 col-sm-6 mb-3">
             <div class="product-card">
               <div class="product-thumb">
@@ -254,9 +392,68 @@
               </div>
               <div class="product-bottom-details">
                 <div class="product-links">
-                  <button href="#" class="btn btn-outline-dark" type="button">
+                  <button
+                    type="button"
+                    class="btn btn-outline-dark"
+                    data-bs-toggle="modal"
+                    data-bs-target="#exampleModal3"
+                  >
                     Посмотреть
                   </button>
+                </div>
+                <!-- Модальное окно -->
+                <div
+                  class="modal fade"
+                  id="exampleModal3"
+                  tabindex="-1"
+                  aria-labelledby="exampleModalLabel"
+                  aria-hidden="true"
+                >
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                          Установка газовых счетчиков
+                        </h5>
+                        <button
+                          type="button"
+                          class="btn-close"
+                          data-bs-dismiss="modal"
+                          aria-label="Закрыть"
+                        ></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>
+                          Собственник помещения, отапливаемого с использованием
+                          газового оборудования, т.е. в котором установлен
+                          газовый отопительный котел, обязан обеспечить
+                          оснащение такого помещения прибором учета газа (там,
+                          где счетчик газа отсутствует).
+                        </p>
+                        <p>
+                          Бездействие собственника газифицированного помещения,
+                          подлежащего оснащению прибором учета, не установившего
+                          счетчик газа в установленный Федеральным законом срок
+                          (до 01.01.2015г.) предоставляет ресурсо -снабжающей
+                          организации или организации транспортирующей
+                          энергоресурсы право требовать доступ в жилое
+                          помещение, принадлежащее ему на праве собственности,
+                          для проведения работ по установке прибора учета и
+                          введения его в эксплуатацию.
+                        </p>
+                      </div>
+
+                      <div class="modal-footer">
+                        <button
+                          type="button"
+                          class="btn btn-secondary"
+                          data-bs-dismiss="modal"
+                        >
+                          Закрыть
+                        </button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -299,6 +496,7 @@
         </div>
       </div>
     </section>
+    <script src="./js/main.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"

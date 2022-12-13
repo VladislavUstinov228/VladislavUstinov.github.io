@@ -5,8 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <script src="https://use.fontawesome.com/80d00e388c.js"></script>
-    <link href="./css/reset.css" rel="stylesheet" />
-    <link href="./css/normalize.css" rel="stylesheet" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -22,7 +20,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
       rel="stylesheet"
     />
     <script
@@ -41,14 +39,22 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/adaptation.css" />
     <title>Газпром Газораспределение Ленинградская область в г. Выборге</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="./index.html"
-          ><img src="./images/logo.svg" alt=""
-        /></a>
+        <a href="./index.html" class="navbar-brand">
+          <img src="./images/logo.svg" alt="" class="logotype" /><audio
+            id="au"
+            src="sound.mp3.mp3"
+          ></audio
+          ><strong
+            class="txt w-25"
+            style="left: 20px; position: relative"
+          ></strong>
+        </a>
         <button
           class="navbar-toggler"
           type="button"
@@ -109,6 +115,22 @@
           <a href="./registration.html">нажмите здесь</a>.
         </li>
       </ul>
+      <div class="row">
+        <h4>Авторизуйтесь через соц. сети</h4>
+        <div class="col-12 mb-5">
+          <a href="#" class="vk btn">
+            <i class="fa fa-vk fa-fw"></i> Авторизация через VK
+          </a>
+          <div class="col-12">
+            <a href="#" class="tg btn">
+              <i class="fa fa-telegram fa-fw"></i> Авторизация через Telegram
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="hide-md-lg w-25 mb-3">
+        <p class="d-flex justify-content-center">Или</p>
+      </div>
       <form class="row g-2 needs-validation" novalidate>
         <div class="col-mb-3">
           <label for="validationCustom04" class="form-label"
@@ -181,6 +203,7 @@
         </div>
       </div>
     </section>
+    <script src="./js/main.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"

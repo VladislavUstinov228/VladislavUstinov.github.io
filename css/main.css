@@ -1,3 +1,6 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
 /* footer */
 .my-footer {
   background-color: #f7f7f7;
@@ -88,10 +91,8 @@
   line-height: 1; /*задаём высоту строки*/
   text-decoration: none; /*убираем подчёркивание*/
 }
-body {
-  font-family: "Poppins", -apple-system, system-ui, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  font-style: normal;
+.navbar-light .navbar-nav .nav-link {
+  color: #1b1a1a;
 }
 .navbar .btn {
   border-radius: 14px;
@@ -182,10 +183,18 @@ body {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+.content-find .d-flex .list-unstyled {
+  border: 1px solid #1b1a1a42;
+  padding: 30px 50px 30px 50px;
+}
+.content-find {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
 /* contact */
 .contactus {
-  padding-top: 150px;
-  padding-bottom: 180px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 .contacts {
   max-width: 500px;
@@ -232,8 +241,8 @@ body {
 }
 /* authorization */
 .autho {
-  padding-top: 150px;
-  padding-bottom: 180px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .autho h4 {
   padding-bottom: 15px;
@@ -259,9 +268,44 @@ body {
   flex-wrap: wrap;
 }
 .registr {
-  padding-top: 150px;
-  padding-bottom: 180px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 .registr .btn {
   margin-top: 15px;
+}
+.vk {
+  background-color: #3b5998;
+  color: white;
+}
+.tg {
+  background-color: #55acee;
+  color: white;
+}
+.hide-md-lg {
+  overflow: hidden;
+  text-align: center;
+}
+.hide-md-lg p {
+  display: inline-block;
+  vertical-align: middle;
+}
+.hide-md-lg p::after,
+.hide-md-lg p::before {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  height: 1px;
+  background-color: #70707057;
+  position: relative;
+  top: 11px;
+}
+.hide-md-lg p::after {
+  margin-right: -100%;
+  right: -14px;
+}
+.hide-md-lg p::before {
+  margin-left: -100%;
+  left: -14px;
 }
