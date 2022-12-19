@@ -17,6 +17,9 @@
   .w-25 {
     width: 50% !important;
   }
+  .content-find .d-flex .list-unstyled {
+    border: none;
+  }
 }
 @media (max-width: 978px) {
 }
